@@ -1,0 +1,3 @@
+instalar Git directamente (Ubuntu tiene paquetes de Git, que es mucho más rápido y más simple).
+
+sudo apt-get install git-core

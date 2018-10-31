@@ -1,0 +1,29 @@
+Instalar Git completo:
+	
+	sudo apt-get install libcurl4-gnutls-dev
+
+	instalar Git directamente (Ubuntu tiene paquetes de Git, que es mucho más rápido y más simple).
+
+		sudo apt-get install git-core
+
+Instalar un paquete del repositorio de synaptic:
+
+	sudo synaptic
+
+Instalar red wifi:
+	ifconfig 	//si no sale instalar net-tools:
+	
+		sudo apt install net-tools
+	
+	actualizar los repositorios:
+		
+		sudo apt-get update
+	
+	eliminar el driver antiguo de la tarjeta wifi:
+	
+		sudo apt-get remove bcmwl-kernel-source
+
+	instalar el driver nuevo:
+		
+		sudo apt-get install firmware-b43-installer
+		
